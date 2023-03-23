@@ -3,11 +3,15 @@ import styled from 'styled-components';
 import MobileFeatures from '../components/MobileFeatures';
 import { Link } from 'react-router-dom';
 import DesktopFeatures from '../components/DesktopFeatures';
+import MobileBackgroundEffects from '../components/MobileBackgroundEffects';
 import noise from '../assets/noise.svg';
 
 function Home() {
   return (
     <Wrapper>
+      <div className='mobile-bg-effects'>
+        <MobileBackgroundEffects />
+      </div>
       <div className='container'>
         <div className='noise'></div>
         <section>
@@ -48,6 +52,11 @@ function Home() {
 }
 
 const Wrapper = styled.main`
+  position: relative;
+
+  .mobile-bg-effects {
+    position: relative;
+  }
   .noise {
     background-image: url(${noise});
     background-size: cover;
@@ -99,6 +108,12 @@ const Wrapper = styled.main`
   }
 
   @media screen and (min-width: 1200px) {
+    padding-top: 9.4rem;
+
+    .mobile-bg-effects {
+      display: none;
+    }
+
     .noise {
       display: none;
     }

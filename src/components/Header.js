@@ -20,12 +20,12 @@ const Wrapper = styled.div`
   position: sticky;
   top: 0;
   background-color: #0e1014;
+  z-index: 2;
 
   @media screen and (min-width: 1200px) {
     background-color: transparent;
     position: static;
     margin-top: 4.6rem;
-    margin-bottom: 9.4rem;
 
     .container {
       display: flex;

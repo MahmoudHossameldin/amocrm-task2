@@ -74,8 +74,13 @@ function Footer() {
 }
 
 const Wrapper = styled.footer`
-  margin: 4.5rem auto 6rem;
-  padding: 0 1.5rem;
+  margin: 0 auto;
+  padding: 4.5rem 0 7.5rem;
+  background-color: #0e1014;
+
+  .container {
+    padding: 0 1.5rem;
+  }
 
   .nav-contacts {
     display: block;
@@ -96,6 +101,7 @@ const Wrapper = styled.footer`
       font-size: 1.2rem;
       font-weight: 700;
       line-height: 1.45rem;
+      text-transform: uppercase;
     }
     li,
     > div:last-child > div p {
@@ -145,6 +151,10 @@ const Wrapper = styled.footer`
   @media screen and (min-width: 1200px) {
     max-height: 31.5rem;
     margin: 5.5rem 0 2rem;
+
+    .container {
+      padding: 0;
+    }
 
     .copyright {
       text-align: right;

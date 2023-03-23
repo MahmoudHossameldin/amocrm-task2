@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import MobileFeatures from '../components/MobileFeatures';
 import { Link } from 'react-router-dom';
 import DesktopFeatures from '../components/DesktopFeatures';
@@ -9,9 +7,8 @@ import noise from '../assets/noise.svg';
 
 function Home() {
   return (
-    <>
-      <Header />
-      <Wrapper>
+    <Wrapper>
+      <div className='container'>
         <div className='noise'></div>
         <section>
           <div className='left'>
@@ -45,9 +42,8 @@ function Home() {
             </div>
           </div>
         </section>
-      </Wrapper>
-      <Footer />
-    </>
+      </div>
+    </Wrapper>
   );
 }
 

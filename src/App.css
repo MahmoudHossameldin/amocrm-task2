@@ -118,19 +118,22 @@ button {
   backdrop-filter: blur(2px);
 }
 
-@media screen and (max-width: 1200px) {
-  section,
-  footer,
-  nav {
-    max-width: 32rem;
-    margin: 0 auto;
-  }
+section,
+nav,
+footer > div {
+  max-width: 32rem;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1200px) {
-  .App {
+  section,
+  .header .container,
+  footer > div {
     max-width: 114rem;
     margin: 0 auto;
+  }
+  nav {
+    max-width: unset;
   }
 
   /* Background effects */

@@ -6,66 +6,68 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <Wrapper>
-      <div className='info'>
-        <div>
-          <h3>О компании</h3>
-          <ul>
-            <li>
-              <Link to='#'>Партнёрская программа</Link>
-            </li>
-            <li>
-              <Link to='#'>Вакансии</Link>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Меню</h3>
-          <ul>
-            <li>
-              <Link to='#'>Расчёт стоимости</Link>
-            </li>
-            <li>
-              <Link to='#'>Кейсы</Link>
-            </li>
-            <li>
-              <Link to='#'>Услуги</Link>
-            </li>
-            <li>
-              <Link to='#'>Благодарственные письма</Link>
-            </li>
-            <li>
-              <Link to='#'>Виджеты</Link>
-            </li>
-            <li>
-              <Link to='#'>Сертификаты</Link>
-            </li>
-            <li>
-              <Link to='#'>Интеграции</Link>
-            </li>
-            <li>
-              <Link to='#'>Блог на Youtube</Link>
-            </li>
-            <li>
-              <Link to='#'>Наши клиенты</Link>
-            </li>
-            <li>
-              <Link to='#'>Вопрос / Ответ</Link>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Контакты</h3>
+      <div className='container'>
+        <div className='info'>
           <div>
-            <Contacts />
-            <p>Москва, Путевой проезд 3с1, к 902</p>
+            <h3>О компании</h3>
+            <ul>
+              <li>
+                <Link to='#'>Партнёрская программа</Link>
+              </li>
+              <li>
+                <Link to='#'>Вакансии</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Меню</h3>
+            <ul>
+              <li>
+                <Link to='#'>Расчёт стоимости</Link>
+              </li>
+              <li>
+                <Link to='#'>Кейсы</Link>
+              </li>
+              <li>
+                <Link to='#'>Услуги</Link>
+              </li>
+              <li>
+                <Link to='#'>Благодарственные письма</Link>
+              </li>
+              <li>
+                <Link to='#'>Виджеты</Link>
+              </li>
+              <li>
+                <Link to='#'>Сертификаты</Link>
+              </li>
+              <li>
+                <Link to='#'>Интеграции</Link>
+              </li>
+              <li>
+                <Link to='#'>Блог на Youtube</Link>
+              </li>
+              <li>
+                <Link to='#'>Наши клиенты</Link>
+              </li>
+              <li>
+                <Link to='#'>Вопрос / Ответ</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Контакты</h3>
+            <div>
+              <Contacts />
+              <p>Москва, Путевой проезд 3с1, к 902</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className='copyright'>
-        <p>©WELBEX 2022. Все права защищены.</p>
-        <p>
-          <Link to='/'>Политика конфиденциальности</Link>
-        </p>
+        <div className='copyright'>
+          <p>©WELBEX 2022. Все права защищены.</p>
+          <p>
+            <Link to='/'>Политика конфиденциальности</Link>
+          </p>
+        </div>
       </div>
     </Wrapper>
   );

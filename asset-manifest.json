@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/amocrm-task2/static/css/main.1529c08c.css",
+    "main.js": "/amocrm-task2/static/js/main.833f83b1.js",
+    "static/js/787.aad65a53.chunk.js": "/amocrm-task2/static/js/787.aad65a53.chunk.js",
+    "static/media/noise.svg": "/amocrm-task2/static/media/noise.b7abfb5c951eab45e2712374656b9304.svg",
+    "static/media/welbex.svg": "/amocrm-task2/static/media/welbex.cfd77cd515757d1b892c236cc0ba5865.svg",
+    "static/media/whatsapp.svg": "/amocrm-task2/static/media/whatsapp.c793f1ae1fe1ca9d2d3281cbeb9d77a8.svg",
+    "static/media/phone.svg": "/amocrm-task2/static/media/phone.68cafd33e320a578baba5f4f12d7ef5a.svg",
+    "index.html": "/amocrm-task2/index.html",
+    "static/media/logo.svg": "/amocrm-task2/static/media/logo.5ec25f53eb07e0eeba154c5d889889bb.svg",
+    "static/media/telegram.svg": "/amocrm-task2/static/media/telegram.bbdfd49ca3491cd8b259261acb41fd7f.svg",
+    "main.1529c08c.css.map": "/amocrm-task2/static/css/main.1529c08c.css.map",
+    "main.833f83b1.js.map": "/amocrm-task2/static/js/main.833f83b1.js.map",
+    "787.aad65a53.chunk.js.map": "/amocrm-task2/static/js/787.aad65a53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1529c08c.css",
+    "static/js/main.833f83b1.js"
+  ]
+}
